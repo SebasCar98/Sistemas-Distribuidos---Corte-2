@@ -1,0 +1,41 @@
+.lista-usuarios {
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-usuarios h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 2em;
+  }
+  
+  .lista-usuarios table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .lista-usuarios table, th, td {
+    border: 1px solid #dddddd;
+  }
+  
+  .lista-usuarios th {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .lista-usuarios td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .lista-usuarios tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

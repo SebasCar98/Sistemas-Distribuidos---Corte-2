@@ -1,0 +1,50 @@
+.consulta-ventas-producto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #a1c4fd);
+    padding: 20px;
+  }
+  
+  .input-field {
+    width: 300px;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.1), 3px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .result-table {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .result-table th {
+    background-color: #ff6600;
+    color: white;
+  }
+  
