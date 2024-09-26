@@ -11,7 +11,7 @@ public class Conexion {
    static String login = "root";
    static String password = "admin";
   // static String url = "jdbc:mysql://dbgrupo12.czo3ixoe3xoe.us-east-1.rds.amazonaws.com/"+bd;
-   static String url = "jdbc:mysql://localhost:3306/dbgrupo12";
+   static String url = "jdbc:mysql://localhost:3307/dbgrupo12";
    Connection connection = null;
    /** Constructor de DbConnection */
    public Conexion() {
